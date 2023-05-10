@@ -1,8 +1,21 @@
-.para,
-.small-para {
-  color: hsl(0, 100%, 50%);
+body{
+  font-family:Arial, Helvetica, sans-serif
 }
 
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
+<<<<<<< HEAD
+=======
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+>>>>>>> refs/remotes/origin/main
 .para {
   font-size: 22px;
 }
@@ -14,22 +27,28 @@
 #confirm-button {
   background: green;
   color: white;
-  font-size: 20px;
   font-weight: bold;
 } 
 
 .button {
-  background-color: #ffc0cb;
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
+<<<<<<< HEAD
 div.text.child {
   color: red;
+=======
+.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+>>>>>>> refs/remotes/origin/main
   font-size: 14px;
 }
 
 div.text {
-  color: green;
-  font-size: 28px;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
 }

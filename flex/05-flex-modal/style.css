@@ -65,6 +65,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   margin-left: auto;
   margin-bottom: auto;
 }
@@ -72,9 +73,14 @@ body {
 .top {
   display: flex;
   justify-content: space-between;
+=======
+  border: 1px solid #eee;
+  padding: 0;
+>>>>>>> refs/remotes/origin/main
 }
 
 button {
+  cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
 }
